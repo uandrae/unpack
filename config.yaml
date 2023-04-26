@@ -1,0 +1,16 @@
+
+verdir : '/nobackup/smhid20/users/sm_uandr/Monitor_ref/data'
+
+experiments:
+ 
+ mcp43h2_preop_4DVAR :
+   input_path : '/nobackup/smhid20/users/sm_uandr/hm_home'
+   members : 'mbr000'
+
+ MEPS_preop :
+   input_path : '/nobackup/smhid20/users/sm_uandr/Monitor_ref/data/MEPS_preop'
+   members : 'mbr000'
+
+ MEPS2_preop :
+   input_path : '/nobackup/smhid20/users/sm_uandr/MEPS2_preop/'
+   members : 'mbr000'
