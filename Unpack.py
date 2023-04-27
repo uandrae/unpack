@@ -24,6 +24,8 @@ class Experiment:
          self.mbrs = [self.mbrs]
         elif len(self.mbrs) == 0 and isinstance(self.mbrs,list) :
          self.mbrs = find_mbrs(self.archive,'mbr')
+         if len(self.mbrs) == 0 :
+          self.mbrs = ['']
 
         # Testing
         self.dry = True
