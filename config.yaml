@@ -1,16 +1,19 @@
 
-verdir : '/nobackup/smhid20/users/sm_uandr/Monitor_ref/data'
+verdir : "/ec/res4/scratch/snh/monitor/data/"
 
 experiments:
- 
- mcp43h2_preop_4DVAR :
-   input_path : '/nobackup/smhid20/users/sm_uandr/hm_home'
-   members : 'mbr000'
-
- MEPS_preop :
-   input_path : '/nobackup/smhid20/users/sm_uandr/Monitor_ref/data/MEPS_preop'
-   members : 'mbr000'
-
- MEPS2_preop :
-   input_path : '/nobackup/smhid20/users/sm_uandr/MEPS2_preop/'
-   members : 'mbr000'
+   obs:
+     input_path : "/hpcperm/snh/hm_home/spd_68abb65f_gnu_dbl/parchive/archive/extract"
+     is_vfld : false
+   spd_68abb65f_gnu_dbl:
+     input_path : "/hpcperm/snh/hm_home/spd_68abb65f_gnu_dbl/parchive/archive/extract"
+   spd_68abb65f_gnu_sp:
+     input_path : "/hpcperm/snh/hm_home/spd_68abb65f_gnu_sp/parchive/archive/extract"
+   spd_68abb65f_intel_dbl:
+     input_path : "/hpcperm/snh/hm_home/spd_68abb65f_intel_dbl/parchive/archive/extract"
+   spd_68abb65f_intel_dbl_noawx:
+     input_path : "/hpcperm/snh/hm_home/spd_68abb65f_intel_dbl_noawx/parchive/archive/extract"
+   spd_68abb65f_intel_sp:
+     input_path : "/hpcperm/snh/hm_home/spd_68abb65f_intel_sp/parchive/archive/extract"
+   spd_68abb65f_intel_sp_noawx:
+     input_path : "/hpcperm/snh/hm_home/spd_68abb65f_intel_sp_noawx/parchive/archive/extract"
